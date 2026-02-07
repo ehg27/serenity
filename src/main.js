@@ -162,7 +162,7 @@ function loadVideoFrame(scene, modelConfig) {
   document.addEventListener('click', () => {
     if (video.muted) {
       video.muted = false;
-      video.volume = 0.01;
+      video.volume = 0.04;
       console.log('🔊 Video unmuted on click');
     }
   }, { once: true });
