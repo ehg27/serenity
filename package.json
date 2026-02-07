@@ -1,0 +1,23 @@
+{
+  "name": "3dproj",
+  "private": true,
+  "version": "0.0.0",
+    "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+
+  "homepage": "https://github.com/ehg27/serenity",
+
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "three": "^0.182.0"
+  }
+  
+  
+}
