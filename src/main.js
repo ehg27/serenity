@@ -530,7 +530,7 @@ function init() {
   );
 
 
-// ============================================
+  // ============================================
   // START SCREEN HANDLER
   // ============================================
   const startScreen = document.getElementById('start-screen');
